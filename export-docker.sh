@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-docker save -o anime-fetcher-docker.tar anime-fetcher-docker:latest
+docker save -o anime-dive-docker.tar anime-dive-docker:latest

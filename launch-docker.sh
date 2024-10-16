@@ -1,5 +1,3 @@
-Here is the translation of your script into English:
-
 ```bash
 #!/usr/bin/bash
 
@@ -25,7 +23,7 @@ else
 fi
 
 # Run docker with configuration file mounting
-docker run -it --rm -v "$ANIMES_DIR:/app/src/Animes" -v "$CONFIG_FILE:/app/infos.jsonc" anime-fetcher-docker:latest
+docker run -it --rm -v "$ANIMES_DIR:/app/src/Animes" -v "$CONFIG_FILE:/app/infos.jsonc" anime-dive-docker:latest
 
 # Set proper permissions for the anime directory
 echo "Modifying permissions for the $ANIMES_DIR directory..."

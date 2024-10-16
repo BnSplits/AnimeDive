@@ -1,8 +1,8 @@
 ---
 
-# Anime Fetcher
+# Anime Dive
 
-Anime Fetcher is a program for downloading anime using Puppeteer to retrieve episodes from the site [anime-sama.fr](https://anime-sama.fr) and Mega to store the files.
+Anime Dive is a program for downloading anime using Puppeteer to retrieve episodes from the site [anime-sama.fr](https://anime-sama.fr) and Mega to store the files.
 
 ## Prerequisites
 
@@ -18,8 +18,8 @@ Before you begin, make sure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/BnSplits/anime_fetcher.git
-   cd anime_fetcher
+   git clone https://github.com/BnSplits/AnimeDive.git
+   cd AnimeDive
    ```
 
 2. **Prepare the configuration file:**
@@ -41,7 +41,7 @@ Before you begin, make sure you have the following installed on your machine:
    ./build-docker.sh
    ```
 
-   This script uses Docker Buildx to create the image with the tag `anime-fetcher-docker:latest`.
+   This script uses Docker Buildx to create the image with the tag `anime-dive-docker:latest`.
 
    > **Note for Linux users**: Docker Buildx is required to build the image on Linux. For other systems, Docker Buildx is not required.
 

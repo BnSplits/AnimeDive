@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-docker load -i anime-fetcher-docker.tar 
+docker load -i anime-dive-docker.tar 
 
